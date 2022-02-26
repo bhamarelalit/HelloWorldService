@@ -9,7 +9,7 @@ public class HelloWorldController {
     @GetMapping("/hello")
     public String Greeting()
     {
-            return "Hello World from Rest Controller Eclipse: Lalit";
+            return "Hello World from Rest Controller Eclipse Intellj: Lalit";
     }
 
 
