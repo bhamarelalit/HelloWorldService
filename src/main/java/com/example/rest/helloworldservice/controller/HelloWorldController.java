@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
+    String goodNight="GN";
+
     @GetMapping("/hello")
     public String Greeting()
     {
