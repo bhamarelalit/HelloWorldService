@@ -6,12 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloWorldController {
 
-
-
     @GetMapping("/hello")
     public String Greeting()
     {
-            return "Hello World from Rest Controller Eclipse Intellj: Lalit";
+            return "-Hello World from Rest Controller Eclipse Intellj: Lalit";
     }
 
 
